@@ -37,6 +37,9 @@ a.nav-links {
         color: #150c21;
         font-family: "Poppins", sans-serif;
     }
+    .md-12{
+        font-weight: 300;
+    }
     p {
         font-size: 21px;
         margin: 40px 0px;
@@ -46,6 +49,10 @@ a.nav-links {
         font-weight: 300;
     }
     button {
+        @media screen and (max-width:996px) {
+            width: 100%;
+            
+        }
         width: 220px;
         height: 70px;
         font-size: smaller;
@@ -59,5 +66,28 @@ a.nav-links {
         padding-top: 20px;
         padding-bottom: 20px; */
         /* font-family: "Poppins", sans-serif; */
+    }
+}
+
+.atcgirl{
+    @media screen and (max-width:996px){
+     display: none;   
+    }
+}
+.circlebg{
+    @media screen and (max-width:996px){
+        display: none;
+        
+    }
+    position: absolute;
+    top: -180px;
+    left: 1100px;
+    z-index: -1;
+}
+
+
+.girlCircle{
+    @media screen and (min-width:992px){
+     display: none;   
     }
 }
